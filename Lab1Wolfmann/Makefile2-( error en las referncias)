@@ -1,0 +1,21 @@
+#Defino variables a compilar
+CC = gcc 
+CFLAGS = -Wall -g 
+SRCS= ksamp.c parteB.c parteC.c parteD.c 
+OBJS = $(SRCS:.c=.o)
+MAIN = ksamp
+INCLUDES=-I/includes
+
+
+all:	$(MAIN)
+	@echo el programa ksamp se a compilado exitosamente
+
+.c.o:
+	$(CC) $(CFLAGS) $(INCLUDES) -c $< -o $@
+
+clean:
+	$(RM) *.o *~ $(MAIN)
+
+depend: $(SRC)
+	makedepend $(INCLUDES)
+
