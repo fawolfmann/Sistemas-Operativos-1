@@ -32,6 +32,7 @@ Luego en cada parte seran implementadas.
 
 #### Parte B
 En esta version inicial de ksamp se imprimira la siguiente informacion:
+![](/screens/parteB.png)
 
     -Tipo y modelo de CPU: en */proc/cpuinfo*
         -vendor_id: Tipo de CPU
@@ -39,7 +40,7 @@ En esta version inicial de ksamp se imprimira la siguiente informacion:
 	-Versión actual del kernel 				*/proc/version_signature*
 	-Cantidad de tiempo que transcurrio desde que se inicio el sitema operativo en */proc/uptime*
 	-Cabecera que indique el nombre de la máquina, fecha y hora actuales.
-![](/screens/parteB.png)
+
 ![](/screens/parteB.png)
 
 #### Parte C
