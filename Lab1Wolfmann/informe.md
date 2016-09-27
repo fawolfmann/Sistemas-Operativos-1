@@ -39,7 +39,7 @@ En esta version inicial de ksamp se imprimira la siguiente informacion:
 	-Versión actual del kernel 				*/proc/version_signature*
 	-Cantidad de tiempo que transcurrio desde que se inicio el sitema operativo en */proc/uptime*
 	-Cabecera que indique el nombre de la máquina, fecha y hora actuales.
-![](/screens/parteB)
+![](/screens/parteB.png)
 
 #### Parte C
 En esta version del ksamp se utilizan las mismas impreciones que la version anterior pero en el caso de poner la opcion (-S) se agregara la siguiente informacion:
@@ -49,7 +49,7 @@ En esta version del ksamp se utilizan las mismas impreciones que la version ante
     -Fecha y hora cuando el sistema fue iniciado.
     -Número de procesos creados desde el inicio del sistema
     
-![](/screens/parteC)
+![](/screens/parteC.png)
 
 #### Parte D
 Esta version final imprimira la parte B y si le agregamos como parametro -l [ intervalo de tiempo]  se imprimen ademas: 
@@ -59,7 +59,7 @@ Esta version final imprimira la parte B y si le agregamos como parametro -l [ in
     -Cantidad de memoria disponible.
     -Lista de los promedios de carga de 1 minuto.
     
-![](/screens/parteD)
+![](/screens/parteD.png)
 
 ### Conclusion
 Con la ejecucion de este practico se pudo aprender a tomar archivos de texto desde una carpeta de archivos, comprension de los archivos makefile, adaptacion al lenguaje C para sistemas operativos, y la mejor familiarizacion con Linux
