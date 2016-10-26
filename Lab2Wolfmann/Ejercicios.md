@@ -61,15 +61,17 @@ Es así, que el shell es hijo del init, los procesos de usuario los nietos, y to
  * fork();
  * fork();
  * printf("a");
-	a	a	a
-	a	a	a
-		a	a
-		a	a
-			a
-			a
-			a
-			a
-	2	4	8
+	1	|2	|3
+	--	|--	|--	
+	a	|a	|a
+	a	|a	|a
+		|a	|a
+		|a	|a
+			|a
+			|a
+			|a
+			|a
+	2	|4	|8
 			
 Al final se imprimiran 8 `a`
 
